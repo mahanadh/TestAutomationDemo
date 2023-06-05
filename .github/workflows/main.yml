@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    name: Sputnik E2E Test Automation
+    name: Test Automation Demo
     runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
@@ -17,7 +17,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          record: true
           parallel: true
-          group: 'Sputnik E2E Test Automation'
+          group: 'Test Automation Demo'
           spec: cypress/e2e/spec.cy.js
