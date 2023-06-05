@@ -20,4 +20,4 @@ jobs:
           record: true
           parallel: true
           group: 'Sputnik E2E Test Automation'
-          spec: cypress/e2e/*.spec.ts
+          spec: cypress/e2e/spec.cy.js
