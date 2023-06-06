@@ -17,4 +17,4 @@ jobs:
         uses: cypress-io/github-action@v5
       - run: npm ci
       - run: npm run build --if-present
-      - run: npx cypress run --spec "cypress/e2e/spec.cy.js"
+      - run: npx cypress run --record --key 133b5cfb-81eb-419e-9392-277f4cabb2f9
